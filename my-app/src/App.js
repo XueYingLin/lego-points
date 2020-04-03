@@ -1,28 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './App.css';
-
-
-  const legoCalendar = [
-    {id: 1, title: "create a roller coaster"},
-    {id: 2, title: "build a new rocket"},
-    {is: 3, title: "build a new home"},
-    {id: 4, title: "build a new Star War movie set"},
-    {id: 5, title: "build a tallest tower"},
-    {id: 6, title: "build a new space ship"},
-    {id: 7, title: "build a coolest pick up truck"}
-    
-  ]
-
-const Home = () => {
-  return (
-    <div>
-      <h2>Home</h2>
-      {legoCalendar.map((item) => <p>Day {item.id} :  Title: {item.title}</p>)}
-      
-    </div>
-  )
-}
+import Home from './component/Home';
 
 const Login = () => {
   return (
