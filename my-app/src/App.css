@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background-image: url(./img/lego-bg.jpg);
+  background-size: cover;
+  height: 100%;
+  color: black;
+  font-size: 2rem;
 }
 
 .App-logo {
@@ -36,3 +41,10 @@
     transform: rotate(360deg);
   }
 }
+
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+
