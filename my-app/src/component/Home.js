@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const legoCalendar = [
     {id: 1, title: "create a roller coaster"},
     {id: 2, title: "build a new rocket"},
-    {is: 3, title: "build a new home"},
+    {id: 3, title: "build a new home"},
     {id: 4, title: "build a new Star War movie set"},
     {id: 5, title: "build a tallest tower"},
     {id: 6, title: "build a new space ship"},
