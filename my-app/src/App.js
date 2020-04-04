@@ -2,14 +2,15 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './App.css';
 import Home from './component/Home';
+import Login from './component/Login';
 
-const Login = () => {
-  return (
-    <div>
-      <h2>Login</h2>
-    </div>
-  )
-}
+// const Login = () => {
+//   return (
+//     <div>
+//       <h2>Login</h2>
+//     </div>
+//   )
+// }
 function App() {
   return (
     <div className="App">
